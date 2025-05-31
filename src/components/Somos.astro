@@ -1,0 +1,113 @@
+<div class="bg-orange-50 px-10 my-14 py-14">
+  <h4 class="text-center text-4xl font-bold text-rose-400">Quienes Somos</h4>
+  <h2 class="text-center text-2xl mb-4">Consejeros de salud mental</h2>
+
+  <div class="flex flex-wrap justify-center gap-4 mt-8">
+    <div class="flex flex-col md:flex-row items-center gap-16 mt-14">
+      <div class="w-full md:1/2">
+        <div class="hero_image_vision">
+          <img src="bienvenida.jpg" class="w-full" />
+        </div>
+      </div>
+      <div class="w-full md:1/2">
+        <h3 class="text-rose-400 text-3xl">VISIÓN</h3>
+        <p class="mt-8 text-2xl">
+          “Consolidarnos como una red de psicólogos de referencia en salud mental, brindando una atención integral,
+          accesible y comprometida con el bienestar de personas de todas las edades. Nos distinguiremos por un enfoque
+          empático, ético y centrado en la innovación terapéutica, teniendo como eje principal la Terapia
+          Cognitivo-Conductual (TCC), para promover el bienestar emocional y el desarrollo personal.
+        </p>
+        <p class="mt-8 text-2xl">
+          Aspiramos a alcanzar un reconocimiento regional, nacional e internacional, utilizando la tecnología para
+          ofrecer un acompañamiento cercano, seguro y de calidad, tanto en modalidad online como presencial, siendo un
+          espacio donde cada persona pueda encontrar el apoyo necesario para mejorar su calidad de vida”.
+        </p>
+      </div>
+    </div>
+    <div class="flex flex-col md:flex-row items-center gap-16">
+      <div class="w-full md:1/2">
+        <h3 class="text-rose-400 text-3xl">MISIÓN</h3>
+        <p class="mt-8 text-2xl">
+          "Brindar atención psicológica integral, accesible y empática, con énfasis en la Terapia Cognitivo-Conductual
+          (TCC) como enfoque principal, para promover el bienestar emocional, el desarrollo personal y el equilibrio
+          integral de nuestros pacientes.
+        </p>
+        <p class="mt-8 text-2xl">
+          Ofrecemos un espacio seguro y cercano, tanto online como presencial, donde cada persona pueda encontrar el
+          apoyo necesario para superar sus desafíos y mejorar su calidad de vida."
+        </p>
+      </div>
+      <div class="w-full md:1/2">
+        <div class="hero_image_mision">
+          <img src="bienvenida.jpg" class="w-full" />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  .hero_image_vision {
+    z-index: 1;
+    padding: 60px;
+    position: relative;
+  }
+
+  .hero_image_vision:after,
+  .hero_image_vision:before {
+    width: 80%;
+    height: 80%;
+    z-index: -1;
+    content: "";
+    position: absolute;
+  }
+
+  .hero_image_vision:before {
+    top: 0;
+    left: 0;
+    background-color: #b2e6e7;
+  }
+
+  /* .hero_image_vision:after {
+    right: 0;
+    bottom: 0;
+    background-color: #a4c5f8;
+  } */
+
+  .hero_image_vision img {
+    border-radius: 150px 0 150px 0;
+  }
+
+  /* ************* */
+
+  .hero_image_mision {
+    z-index: 1;
+    padding: 60px;
+    position: relative;
+  }
+
+  .hero_image_mision:after,
+  .hero_image_mision:before {
+    width: 80%;
+    height: 80%;
+    z-index: -1;
+    content: "";
+    position: absolute;
+  }
+
+  /* .hero_image_mision:before {
+    top: 0;
+    left: 0;
+    background-color: #e392aa;
+  } */
+
+  .hero_image_mision:after {
+    right: 0;
+    bottom: 0;
+    background-color: #b6a3cb;
+  }
+
+  .hero_image_mision img {
+    border-radius: 150px 0 150px 0;
+  }
+</style>

@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "titulo": "Atención personalizada",
+        "contenido": "Escuchamos con empatía y ofrecemos un espacio seguro donde cada persona pueda expresarse libremente y sin juicios."
+    },
+    {
+        "id": 2,
+        "titulo": "Confidencialidad y privacidad",
+        "contenido": "Garantizamos la protección de la información de nuestros pacientes, cumpliendo con las normas de ética profesional y confidencialidad."
+    },
+    {
+        "id": 3,
+        "titulo": "Intervención basada en la evidencia",
+        "contenido": "Utilizamos enfoques terapéuticos científicamente respaldados para ofrecer tratamientos eficaces y adaptados a cada necesidad."
+    },
+    {
+        "id": 4,
+        "titulo": "Respeto y calidez humana",
+        "contenido": "Valoramos la singularidad de cada paciente, promoviendo un trato respetuoso, inclusivo y libre de discriminación."
+    },
+    {
+        "id": 5,
+        "titulo": "Compromiso con el bienestar",
+        "contenido": "Nuestro objetivo es ayudar a nuestros pacientes a desarrollar herramientas que les permitan afrontar sus desafíos y mejorar su calidad de vida."
+    },
+    {
+        "id":6,
+        "titulo": "Profesionalismo y mejora continua",
+        "contenido": "Nos mantenemos en constante actualización para ofrecer un servicio de excelencia, alineado con los avances en psicología y salud mental."
+    }
+]

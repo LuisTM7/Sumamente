@@ -1,0 +1,28 @@
+---
+import servicios from "../config/Servicios.json";
+---
+
+<div class="px-10 my-14">
+  <h4 class="text-center text-4xl font-bold text-rose-400">Nuestros Servicios</h4>
+  <h2 class="text-center text-2xl mb-4">Servicios profesionales de terapia psicológica</h2>
+
+  <div class="flex flex-wrap justify-center gap-4 mt-8">
+    {
+      servicios.map((servicio) => (
+        <div class="max-w-sm p-4 bg-white border border-gray-200 rounded-lg shadow-md  hover:transform hover:scale-105 transition-transform duration-300">
+          <a href="#">
+            <img class="rounded-t-lg" src={servicio.imagen} alt="" />
+          </a>
+          <div class="p-5">
+            <a href="#">
+              <h5 class="text-center text-rose-400 mb-2 text-2xl font-bold tracking-tight uppercase">
+                {servicio.servicio}
+              </h5>
+            </a>
+            <p class="text-center mb-3 font-normal text-gray-700">{servicio.atencion}</p>
+          </div>
+        </div>
+      ))
+    }
+  </div>
+</div>

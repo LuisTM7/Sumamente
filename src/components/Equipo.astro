@@ -1,0 +1,329 @@
+---
+import equipo from "../config/Equipo.json";
+---
+
+<div class="bg-orange-50 px-10 my-14 py-14">
+  <h4 class="text-center text-4xl font-bold text-rose-400">Nuestros Equipo</h4>
+  <h2 class="text-center text-2xl mb-4">Nuestros equipo de profesionales</h2>
+
+  <div class="flex flex-wrap justify-center gap-4 mt-8">
+    <div class="content">
+      {
+        equipo.map((miembro) => (
+          <div class="card">
+            <div class="front text-rose-400 text-lg" style={{ backgroundImage: `url(${miembro.imagen})` }}>
+              <p>{miembro.nombre}</p>
+            </div>
+            <div class="back">
+              <div>
+                <p class="text-sm font-semibold  mb-2">{miembro.descripcion}</p>
+                {/* <p class="text-sm">{miembro.horario}</p> */}
+                <p class="text-sm mt-1 flex text-justify">
+                  <span class="mr-1">
+                    <svg
+                      class="h-5"
+                      data-slot="icon"
+                      fill="none"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                      aria-hidden="true"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+                      />
+                    </svg>
+                  </span>
+                  {miembro.especialidad1}
+                </p>
+                {miembro.especialidad2 && (
+                  <p class="text-sm mt-1 flex text-justify">
+                    <span class="mr-1">
+                      <svg
+                        class="h-5"
+                        data-slot="icon"
+                        fill="none"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg"
+                        aria-hidden="true"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+                        />
+                      </svg>
+                    </span>
+                    {miembro.especialidad2}
+                  </p>
+                )}
+                {miembro.especialidad3 && (
+                  <p class="text-sm mt-1 flex text-justify">
+                    <span class="mr-1">
+                      <svg class="h-5" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24">
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+                        />
+                      </svg>
+                    </span>
+                    {miembro.especialidad3}
+                  </p>
+                )}
+
+                {/* <button class="button">Click Here</button> */}
+              </div>
+            </div>
+          </div>
+        ))
+      }
+    </div>
+    <!-- {
+      equipo.map((miembro) => (
+        <div class="max-w-s rounded overflow-hidden">
+          <img
+            class="w-full rounded-4xl h-80 object-cover hover:transform hover:scale-105 transition-transform duration-300"
+            src={miembro.imagen}
+            alt="personal"
+          />
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2 text-center text-rose-400">{miembro.nombre}</div>
+            <p class="text-gray-700 text-center text-base">{miembro.codigo}</p>
+          </div>
+        </div>
+      ))
+    } -->
+  </div>
+
+  <!-- <div class="content">
+    <div class="card">
+      <div class="front" style="background-image: url(//source.unsplash.com/300x401)">
+        <p>Lorem ipsum dolor sit amet consectetur adipisi.</p>
+      </div>
+      <div class="back">
+        <div>
+          <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
+          <p>Provident consectetur natus voluptatem quis tenetur sed beatae eius sint.</p>
+          <button class="button">Click Here</button>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+  <style>
+    .content {
+      display: flex;
+      margin: 0 auto;
+      justify-content: center;
+      align-items: center;
+      gap: 2rem;
+      flex-wrap: wrap;
+      /* max-width: 1000px; */
+    }
+
+    .card {
+      color: inherit;
+      cursor: pointer;
+      width: 300px;
+      min-width: 300px;
+      height: 400px;
+      min-height: 400px;
+      perspective: 1000px;
+      margin: 1rem;
+      position: relative;
+    }
+    @media screen and (max-width: 800px) {
+      .card {
+        width: calc(50% - 2rem);
+      }
+    }
+    @media screen and (max-width: 500px) {
+      .card {
+        width: 100%;
+      }
+    }
+
+    .front,
+    .back {
+      display: flex;
+      border-radius: 14px;
+      /* background-position: center; */
+      background-size: cover;
+      text-align: center;
+      justify-content: center;
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+      transform-style: preserve-3d;
+      transition: ease-in-out 600ms;
+    }
+    .back {
+      align-items: center;
+    }
+
+    .front {
+      background-size: cover;
+      padding: 2rem;
+      align-items: flex-end;
+      font-weight: 600;
+      /* color: #fff; */
+      overflow: hidden;
+    }
+
+    .front:before {
+      position: absolute;
+      display: block;
+      content: "";
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      /* background: linear-gradient(135deg, #1a9be6, #1a57e6); */
+      opacity: 0.25;
+      z-index: -1;
+    }
+    .card:hover .front {
+      transform: rotateY(180deg);
+    }
+    .card:nth-child(even):hover .front {
+      transform: rotateY(-180deg);
+    }
+
+    .back {
+      background: #fff;
+      transform: rotateY(-180deg);
+      padding: 0 10px;
+    }
+    .back .button {
+      background: linear-gradient(135deg, #1a9be6, #1a57e6);
+    }
+    .back .button:before {
+      box-shadow: 0 0 10px 10px rgba(26, 87, 230, 0.25);
+      background-color: rgba(26, 87, 230, 0.25);
+    }
+    .card:hover .back {
+      transform: rotateY(0deg);
+    }
+    .card:nth-child(even) .back {
+      transform: rotateY(180deg);
+    }
+    .card:nth-child(even) .back .button {
+      background: linear-gradient(135deg, #e61a80, #e61a3c);
+    }
+    .card:nth-child(even) .back .button:before {
+      box-shadow: 0 0 10px 10px rgba(230, 26, 60, 0.25);
+      background-color: rgba(230, 26, 60, 0.25);
+    }
+    .card:nth-child(even):hover .back {
+      transform: rotateY(0deg);
+    }
+
+    .button {
+      transform: translateZ(40px);
+      cursor: pointer;
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+      font-weight: bold;
+      color: #fff;
+      padding: 0.5em 1em;
+      border-radius: 100px;
+      font: inherit;
+      border: none;
+      position: relative;
+      transform-style: preserve-3d;
+      transition: 300ms ease;
+    }
+    .button:before {
+      transition: 300ms ease;
+      position: absolute;
+      display: block;
+      content: "";
+      transform: translateZ(-40px);
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+      height: calc(100% - 20px);
+      width: calc(100% - 20px);
+      border-radius: 100px;
+      left: 10px;
+      top: 16px;
+    }
+    .button:hover {
+      transform: translateZ(55px);
+    }
+    .button:hover:before {
+      transform: translateZ(-55px);
+    }
+    .button:active {
+      transform: translateZ(20px);
+    }
+    .button:active:before {
+      transform: translateZ(-20px);
+      top: 12px;
+    }
+  </style>
+  <!-- <style>
+    .card {
+      height: 500px;
+      width: 300px;
+      border-radius: 10px;
+    }
+
+    .card-inner {
+      position: relative;
+      width: 100%;
+      height: 150px;
+      padding-bottom: 100%;
+      transition: transform 0.6s;
+      transform-style: preserve-3d;
+    }
+
+    .card:hover .card-inner {
+      transform: rotateY(180deg);
+    }
+
+    .card-front,
+    .card-back {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      backface-visibility: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 20px;
+    }
+
+    .card-front {
+      /* background: Yellow; */
+      background-image: url("https://clouduniversityperu.com/public/img/web/compromiso.jpg");
+      display: flex;
+      border-radius: 6px;
+      background-position: center;
+      background-size: cover;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+      transform-style: preserve-3d;
+      transition: ease-in-out 3000ms;
+    }
+
+    .card-back {
+      background: #ff0066;
+      color: #fff;
+      transform: rotateY(180deg);
+    }
+  </style> -->
+</div>

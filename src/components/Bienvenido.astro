@@ -1,0 +1,72 @@
+---
+
+---
+
+<div class="flex flex-col items-center gap-16 px-10 my-14 md:flex-row">
+  <div class="w-full md:1/2">
+    <h2 class="font-bold text-3xl md:text-6xl">Bienvenidos a <br /></h2>
+    <h2 class="font-bold text-4xl md:text-6xl mb-4">Suma-Mente</h2>
+    <p class="mt-8 md:text-2xl">
+      Un staff de psicólogos/as y una teóloga, unidos por el compromiso de brindar un acompañamiento integral
+      (biopsicosocioespiritual) al bienestar humano.
+    </p>
+    <p class="mt-8 md:text-2xl">
+      Desde distintos enfoques psicológicos y espirituales ofrecemos espacios de escucha, contención y orientación para
+      personas que buscan comprenderse, sanar y crecer.
+    </p>
+
+    <div class="flex flex-col gap-4 md:flex-row justify-around items-center mt-12">
+      <button
+        class="bg-blue-500 bg-400 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded cursor-pointer text-base md:text-lg"
+      >
+        Conoce a nuestro equipo
+      </button>
+      <button
+        class="bg-teal-500 hover:bg-teal-400 text-white font-bold py-2 px-4 border-b-4 border-teal-700 hover:border-teal-500 rounded cursor-pointer text-base md:text-lg"
+      >
+        Agenda tu encuentro
+      </button>
+    </div>
+  </div>
+
+  <div class="w-full md:1/2">
+    <div class="hero_image">
+      <img src="bienvenida.jpg" class="w-full" />
+    </div>
+  </div>
+</div>
+
+<style>
+  .hero_image {
+    z-index: 1;
+    padding: 60px;
+    position: relative;
+  }
+
+  .hero_image:after,
+  .hero_image:before {
+    width: 80%;
+    height: 80%;
+    z-index: -1;
+    content: "";
+    position: absolute;
+  }
+
+  .hero_image:before {
+    top: 0;
+    left: 0;
+    /* background-color: #a4c5f8; */
+    background-color: #e392aa;
+  }
+
+  .hero_image:after {
+    right: 0;
+    bottom: 0;
+    /* background-color: #e392aa; */
+    background-color: #a4c5f8;
+  }
+
+  .hero_image img {
+    border-radius: 150px 0 150px 0;
+  }
+</style>

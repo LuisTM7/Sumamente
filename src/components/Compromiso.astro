@@ -1,0 +1,211 @@
+---
+import compromisos from "../config/Compromiso.json";
+---
+
+<div class="flex flex-col md:flex-row items-center gap-16 px-10 my-14">
+  <div class="w-full md:1/2">
+    <div class="images_group_widget">
+      <ul class="unordered_list">
+        <li>
+          <img src="about_image_2-min.png" alt="Talking Minds - Psychotherapist Site Template" />
+          <img src="about_image_4-min.png" alt="Talking Minds - Psychotherapist Site Template" />
+        </li><li>
+          <img src="about_image_3-min.png" alt="Talking Minds - Psychotherapist Site Template" />
+          <img src="about_image_5-min.png" alt="Talking Minds - Psychotherapist Site Template" />
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="w-full md:1/2">
+    <h4 class="text-center text-4xl font-bold text-rose-400">Compromiso con Nuestros Pacientes</h4>
+    <h2 class="text-center text-2xl mb-4">
+      Nos comprometemos a brindar una atención psicológica de calidad, basada en la ética, la confidencialidad y el
+      respeto por cada persona
+    </h2>
+
+    <div class="container mx-auto my-10">
+      {
+        compromisos.map((compromiso) => (
+          <section
+            class="bg-white grid gap-6 grid-cols-12"
+            aria-labelledby="faq-heading"
+            itemscope
+            itemtype="https://schema.org/FAQPage"
+          >
+            <div class="space-y-6 col-span-12">
+              <details
+                class="border-b border-gray-200 pb-4"
+                itemscope
+                itemprop="mainEntity"
+                itemtype="https://schema.org/Question"
+              >
+                <summary
+                  class="flex justify-between items-center w-full text-left text-gray-900 font-bold cursor-pointer px-2 py-1"
+                  itemprop="name"
+                >
+                  {compromiso.titulo}
+                  <svg
+                    class="w-5 h-5 transform transition-transform duration-200"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                  </svg>
+                </summary>
+                <div
+                  class="mt-2 text-gray-700 pl-2"
+                  itemscope
+                  itemprop="acceptedAnswer"
+                  itemtype="https://schema.org/Answer"
+                >
+                  <p itemprop="text">{compromiso.contenido}</p>
+                </div>
+              </details>
+            </div>
+          </section>
+        ))
+      }
+    </div>
+  </div>
+</div>
+
+<style>
+  details {
+    --duration: 0.3s;
+    interpolate-size: allow-keywords;
+
+    &::details-content {
+      height: 0;
+      overflow-y: hidden;
+      transition:
+        content-visibility var(--duration) allow-discrete,
+        height var(--duration);
+    }
+    &[open]::details-content {
+      height: auto;
+    }
+  }
+
+  /* *************** */
+
+  [class*="unordered_list"] {
+    margin: 0;
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  [class*="unordered_list"] > li {
+    float: left;
+    list-style: none;
+    display: inline-block;
+  }
+
+  .unordered_list_block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .unordered_list_block > li {
+    width: 100%;
+    display: block;
+  }
+
+  .info_list > li {
+    font-weight: 600;
+    line-height: 21px;
+    font-size: var(--bs-body-font-size);
+  }
+
+  .info_list.unordered_list_block > li:not(:last-child) {
+    margin-bottom: 16px;
+  }
+
+  .images_group_widget {
+    z-index: 1;
+    width: 100%;
+    display: table;
+    position: relative;
+    padding: 92px 45px 45px;
+  }
+
+  .images_group_widget:before,
+  .images_group_widget:after {
+    width: 66%;
+    height: 66%;
+    content: "";
+    z-index: -1;
+    position: absolute;
+    background-color: #b2e6e7;
+  }
+
+  .images_group_widget:before {
+    top: 0;
+    right: 0;
+  }
+
+  .images_group_widget:after {
+    left: 0;
+    bottom: 0;
+  }
+
+  .images_group_widget ul {
+    margin: auto;
+    max-width: 574px;
+  }
+
+  .images_group_widget ul > li {
+    width: 50%;
+    padding: 15px;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+  }
+
+  .images_group_widget ul > li img {
+    display: inline-block;
+  }
+
+  .images_group_widget ul > li img:not(:last-child) {
+    margin-bottom: 30px;
+  }
+
+  .images_group_widget ul > li:nth-child(1) {
+    text-align: right;
+  }
+
+  .images_group_widget ul > li:nth-child(1) img:nth-child(1) {
+    max-width: 200px;
+  }
+
+  /* .images_group_widget ul > li:nth-child(1) img:nth-child(2) {
+    max-width: 255px;
+  } */
+
+  .images_group_widget ul > li:nth-child(2) {
+    text-align: left;
+    -webkit-transform: translateY(-60px);
+    transform: translateY(-60px);
+  }
+
+  .images_group_widget ul > li:nth-child(2) img:nth-child(1) {
+    max-width: 255px;
+  }
+
+  .images_group_widget ul > li:nth-child(2) img:nth-child(2) {
+    max-width: 200px;
+  }
+</style>

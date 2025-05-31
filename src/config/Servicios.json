@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "servicio": "Terapia individual en niños",
+        "imagen": "bienvenida.jpg",
+        "atencion": "Atencion on-line"
+    },
+    {
+        "id": 2,
+        "servicio": "Terapia individual en adolescentes",
+        "imagen": "bienvenida.jpg",
+       "atencion": "Atencion on-line"
+    },
+    {
+        "id": 3,
+        "servicio": "Terapia individual en jovenes",
+         "imagen": "bienvenida.jpg",
+       "atencion": "Atencion on-line"
+    },
+    {
+        "id": 4,
+        "servicio": "Terapia individual en adultos",
+        "imagen": "bienvenida.jpg",
+       "atencion": "Atencion on-line"
+    },
+    {
+        "id": 5,
+        "servicio": "Terapia de pareja",
+        "imagen": "bienvenida.jpg",
+        "atencion": "Atencion on-line"
+    },
+    {
+        "id":6,
+        "servicio": "Terapia familiar",
+        "imagen": "bienvenida.jpg",
+        "atencion": "Atencion on-line"
+    },
+    {
+        "id": 7,
+        "servicio": "Evaluación e intervención en problemas de aprendizaje",
+        "imagen": "bienvenida.jpg",
+        "atencion": "Atencion on-line y presencial"
+    },
+    {
+        "id": 8,
+        "servicio": "Orientación y consejeria a padres de familia",
+        "imagen": "bienvenida.jpg",
+        "atencion": "Atencion on-line y presencial"
+    },
+    {
+        "id": 9,
+        "servicio": "Desarrollo de habilidades blandas a traves del arte y psicopedagogia teatral",
+        "imagen": "bienvenida.jpg",
+        "atencion": "Atencion on-line y presencial"
+    }
+]

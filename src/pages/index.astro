@@ -1,0 +1,31 @@
+---
+import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
+import BaseHead from "../components/BaseHead.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import Bienvenido from "../components/Bienvenido.astro";
+import Servicios from "../components/Servicios.astro";
+import Equipo from "../components/Equipo.astro";
+import Citas from "../components/Citas.astro";
+import Somos from "../components/Somos.astro";
+import Compromiso from "../components/Compromiso.astro";
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  </head>
+  <body>
+    <Header />
+    <main>
+      <!-- <Bienvenido /> -->
+      <!-- <Somos /> -->
+      <!-- <Servicios /> -->
+      <Equipo />
+      <!-- <Compromiso /> -->
+      <!-- <Citas /> -->
+    </main>
+    <Footer />
+  </body>
+</html>
