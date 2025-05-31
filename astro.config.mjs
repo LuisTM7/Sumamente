@@ -9,7 +9,7 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineConfig({
   site: "https://LuisTM7.github.io",
   integrations: [mdx(), sitemap()],
-  base: "/Sumamente",
+  base: "",
   vite: {
     plugins: [tailwindcss()],
   },
