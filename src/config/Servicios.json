@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "servicio": "Terapia individual en niños",
+        "servicio": "Acompañamiento Espiritual Terapéutico",
         "imagen": "bienvenida.jpg",
         "atencion": "Atencion on-line"
     },
@@ -37,19 +37,7 @@
     },
     {
         "id": 7,
-        "servicio": "Evaluación e intervención en problemas de aprendizaje",
-        "imagen": "bienvenida.jpg",
-        "atencion": "Atencion on-line y presencial"
-    },
-    {
-        "id": 8,
         "servicio": "Orientación y consejeria a padres de familia",
-        "imagen": "bienvenida.jpg",
-        "atencion": "Atencion on-line y presencial"
-    },
-    {
-        "id": 9,
-        "servicio": "Desarrollo de habilidades blandas a traves del arte y psicopedagogia teatral",
         "imagen": "bienvenida.jpg",
         "atencion": "Atencion on-line y presencial"
     }

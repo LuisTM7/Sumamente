@@ -13,7 +13,7 @@
     {
         "id": 2,
         "nombre": "Psic. Gabriela Soto",
-        "imagen": "equipo-gabriela.png",
+        "imagen": "equipo-gabriela.jpeg",
         "codigo": "CPsP. 31851",
         "descripcion":"Psicóloga - Enfoque Cognitivo-Conductual (TCC)",
         "horario": "Martes, Miércoles, Jueves, Viernes, 6PM Y 7PM",
@@ -22,20 +22,9 @@
         "especialidad3": "Mis áreas de intervención incluyen en ansiedad, estrés, autoestima, toma de decisiones y procesos de cambio personal."
     },
     {
-        "id": 3,
-        "nombre": "Psic. Ela Chavez",
-        "imagen": "equipo-milagros.png",
-        "codigo": "CPsP. 18080",
-        "descripcion":"Psicóloga - Enfoque Sistémico",
-        "horario": "Lunes a Viernes 8:00 - 16:00",
-        "especialidad1": "Desde el enfoque sistémico, observo a la persona dentro de su red de relaciones (familia, escuela, entorno), ofreciendo un acompañamiento que considere el contexto y las dinámicas que influyen en su bienestar.",
-        "especialidad2": "Trabajo con niñas y niños desde un enfoque lúdico, y con adolescentes y adultos en procesos que requieren reconfigurar vínculos, resolver conflictos o acompañar momentos de transición.",
-        "especialidad3": ""
-    },
-    {
         "id": 4,
         "nombre": "Psic. Henry Tula",
-        "imagen": "equipo-gabriela.png",
+        "imagen": "equipo-gabriela.jpeg",
         "codigo": "CPsP. 51305",
         "descripcion":"Psicóloga - Enfoque Cognitivo-Conductual (TCC)",
         "horario": "Lunes a Viernes 8:00 - 16:00",
