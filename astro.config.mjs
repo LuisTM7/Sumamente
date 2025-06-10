@@ -7,7 +7,7 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://astro.build/config
 export default defineConfig({
-  // site: "https://LuisTM7.github.io/Sumamente",
+  site: "https://LuisTM7.github.io/Sumamente",
   integrations: [mdx(), sitemap()],
   // base: "Sumamente",
   // outDir: "./dist",
