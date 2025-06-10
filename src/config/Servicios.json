@@ -2,43 +2,43 @@
     {
         "id": 1,
         "servicio": "Acompañamiento Espiritual Terapéutico",
-        "imagen": "bienvenida.jpg",
+        "imagen": "service/terapia_espiritual.jpg",
         "atencion": "Atencion on-line"
     },
     {
         "id": 2,
         "servicio": "Terapia individual en adolescentes",
-        "imagen": "bienvenida.jpg",
-       "atencion": "Atencion on-line"
+        "imagen": "service/terapia_joven.jpg",
+        "atencion": "Atencion on-line"
     },
     {
         "id": 3,
         "servicio": "Terapia individual en jovenes",
-         "imagen": "bienvenida.jpg",
-       "atencion": "Atencion on-line"
+        "imagen": "service/terapia_adolescentes.jpg",
+        "atencion": "Atencion on-line"
     },
     {
         "id": 4,
         "servicio": "Terapia individual en adultos",
-        "imagen": "bienvenida.jpg",
+        "imagen": "service/terapia_adulto.jpg",
        "atencion": "Atencion on-line"
     },
     {
         "id": 5,
         "servicio": "Terapia de pareja",
-        "imagen": "bienvenida.jpg",
+        "imagen": "service/terapia_pareja.jpg",
         "atencion": "Atencion on-line"
     },
     {
         "id":6,
         "servicio": "Terapia familiar",
-        "imagen": "bienvenida.jpg",
+        "imagen": "service/terapia_familia.jpg",
         "atencion": "Atencion on-line"
     },
     {
         "id": 7,
         "servicio": "Orientación y consejeria a padres de familia",
-        "imagen": "bienvenida.jpg",
+        "imagen": "service/consejeria_padres_familia.jpg",
         "atencion": "Atencion on-line y presencial"
     }
 ]
