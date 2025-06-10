@@ -3,7 +3,7 @@ import compromisos from "../config/Compromiso.json";
 ---
 
 <div class="flex flex-col md:flex-row items-center gap-16 px-10 my-14">
-  <div class="w-full md:1/2 hidden md:block">
+  <div class="w-full md:1/2 hidden md:block" data-aos="zoom-out" data-aos-duration="1000">
     <div class="images_group_widget">
       <ul class="unordered_list">
         <li>
@@ -17,13 +17,15 @@ import compromisos from "../config/Compromiso.json";
     </div>
   </div>
   <div class="w-full md:1/2">
-    <h4 class="text-center text-4xl font-bold text-rose-400">Compromiso con Nuestros Pacientes</h4>
-    <h2 class="text-center text-2xl mb-4">
+    <h4 class="text-center text-4xl font-bold text-rose-400" data-aos="fade-down" data-aos-duration="1500">
+      Compromiso con Nuestros Pacientes
+    </h4>
+    <h2 class="text-center text-2xl mb-4" data-aos="fade-down" data-aos-duration="1000">
       Nos comprometemos a brindar una atención psicológica de calidad, basada en la ética, la confidencialidad y el
       respeto por cada persona
     </h2>
 
-    <div class="container mx-auto my-10">
+    <div class="container mx-auto my-10" data-aos="zoom-out" data-aos-duration="1000">
       {
         compromisos.map((compromiso) => (
           <section

@@ -8,7 +8,8 @@
         "horario": "Lunes a Viernes 8:00 - 16:00",
         "especialidad1": "Trabajo desde la terapia cognitivo-conductual, enfocándome en ayudar a las personas a comprender y transformar los pensamientos y comportamientos que les generan malestar.",
         "especialidad2": "Ofrezco un espacio de escucha activa, sin juicios, donde podamos trabajar juntos/as en tus objetivos personales, emocionales y de vida cotidiana.",
-        "especialidad3": "Mis áreas de intervención incluyen en ansiedad, estrés, autoestima, toma de decisiones y procesos de cambio personal."
+        "especialidad3": "Mis áreas de intervención incluyen en ansiedad, estrés, autoestima, toma de decisiones y procesos de cambio personal.",
+        "ver": true
     },
     {
         "id": 2,
@@ -19,18 +20,32 @@
         "horario": "Martes, Miércoles, Jueves, Viernes, 6PM Y 7PM",
         "especialidad1": "Trabajo desde la terapia cognitivo-conductual, enfocándome en ayudar a las personas a comprender y transformar los pensamientos y comportamientos que les generan malestar.",
         "especialidad2": "Ofrezco un espacio de escucha activa, sin juicios, donde podamos trabajar juntos/as en tus objetivos personales, emocionales y de vida cotidiana.",
-        "especialidad3": "Mis áreas de intervención incluyen en ansiedad, estrés, autoestima, toma de decisiones y procesos de cambio personal."
+        "especialidad3": "Mis áreas de intervención incluyen en ansiedad, estrés, autoestima, toma de decisiones y procesos de cambio personal.",
+        "ver": false
+    },
+    {
+        "id": 3,
+        "nombre": "Psic. Ela Chavez",
+        "imagen": "equipo-milagros.png",
+        "codigo": "CPsP. 18080",
+        "descripcion":"Psicóloga - Enfoque Sistémico",
+        "horario": "Lunes a Viernes 8:00 - 16:00",
+        "especialidad1": "Desde el enfoque sistémico, observo a la persona dentro de su red de relaciones (familia, escuela, entorno), ofreciendo un acompañamiento que considere el contexto y las dinámicas que influyen en su bienestar.",
+        "especialidad2": "Trabajo con niñas y niños desde un enfoque lúdico, y con adolescentes y adultos en procesos que requieren reconfigurar vínculos, resolver conflictos o acompañar momentos de transición.",
+        "especialidad3": "",
+        "ver": true
     },
     {
         "id": 4,
         "nombre": "Psic. Henry Tula",
-        "imagen": "equipo-gabriela.jpeg",
+        "imagen": "equipo-zonaly.png",
         "codigo": "CPsP. 51305",
         "descripcion":"Psicóloga - Enfoque Cognitivo-Conductual (TCC)",
         "horario": "Lunes a Viernes 8:00 - 16:00",
         "especialidad1": "Trabajaremos desde un  enfoque  cognitivo-conductual y/o el adecuado para ti,  apoyándote  a comprender y transformar tus pensamientos y comportamientos que te generan malestar, y así, fortalecer su bienestar emocional.",
         "especialidad2": "Ofrezco un espacio de escucha activa, sin juicios, donde podamos trabajar juntos/as en tus objetivos personales y/o familiares, emocionales y de vida cotidiana.",
-        "especialidad3": "Mis áreas de intervención incluyen también en terapia de pareja y/o familia, fomentando la comunicación, el respeto mutuo y la construcción de vínculos saludables."
+        "especialidad3": "Mis áreas de intervención incluyen también en terapia de pareja y/o familia, fomentando la comunicación, el respeto mutuo y la construcción de vínculos saludables.",
+        "ver": true
     },
     {
         "id": 5,
@@ -41,6 +56,7 @@
         "horario": "Lunes a Viernes 8:00 - 16:00",
         "especialidad1": "Mi labor como teóloga/terapeuta es brindar un espacio de escucha compasiva y de acompañamiento espiritual-terapéutico a personas que están atravesando momentos difíciles, tales como: Duelo, enfermedad, pérdidas o crisis existenciales, Búsqueda de sentido o reconexión interior, procesos de perdón o reconciliación personal, espacios de oración guiada y contención espiritual.",
         "especialidad2": "Creo profundamente en el poder de: la conexión humana, la palabra sincera y la fe, como alternativa de sanación.",
-        "especialidad3": ""
+        "especialidad3": "",
+        "ver": true
     }
 ]
