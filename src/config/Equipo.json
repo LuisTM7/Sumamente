@@ -23,6 +23,18 @@
         "especialidad3": "Mis áreas de intervención incluyen en ansiedad, estrés, autoestima, toma de decisiones y procesos de cambio personal.",
         "ver": false
     },
+        {
+        "id": 4,
+        "nombre": "Psic. Henry Tula",
+        "imagen": "equipo-zonaly.png",
+        "codigo": "CPsP. 51305",
+        "descripcion":"Psicóloga - Enfoque Cognitivo-Conductual (TCC)",
+        "horario": "Lunes a Viernes 8:00 - 16:00",
+        "especialidad1": "Trabajaremos desde un  enfoque  cognitivo-conductual y/o el adecuado para ti,  apoyándote  a comprender y transformar tus pensamientos y comportamientos que te generan malestar, y así, fortalecer su bienestar emocional.",
+        "especialidad2": "Ofrezco un espacio de escucha activa, sin juicios, donde podamos trabajar juntos/as en tus objetivos personales y/o familiares, emocionales y de vida cotidiana.",
+        "especialidad3": "Mis áreas de intervención incluyen también en terapia de pareja y/o familia, fomentando la comunicación, el respeto mutuo y la construcción de vínculos saludables.",
+        "ver": true
+    },
     {
         "id": 3,
         "nombre": "Psic. Ela Chavez",
@@ -35,18 +47,7 @@
         "especialidad3": "",
         "ver": true
     },
-    {
-        "id": 4,
-        "nombre": "Psic. Henry Tula",
-        "imagen": "equipo-zonaly.png",
-        "codigo": "CPsP. 51305",
-        "descripcion":"Psicóloga - Enfoque Cognitivo-Conductual (TCC)",
-        "horario": "Lunes a Viernes 8:00 - 16:00",
-        "especialidad1": "Trabajaremos desde un  enfoque  cognitivo-conductual y/o el adecuado para ti,  apoyándote  a comprender y transformar tus pensamientos y comportamientos que te generan malestar, y así, fortalecer su bienestar emocional.",
-        "especialidad2": "Ofrezco un espacio de escucha activa, sin juicios, donde podamos trabajar juntos/as en tus objetivos personales y/o familiares, emocionales y de vida cotidiana.",
-        "especialidad3": "Mis áreas de intervención incluyen también en terapia de pareja y/o familia, fomentando la comunicación, el respeto mutuo y la construcción de vínculos saludables.",
-        "ver": true
-    },
+
     {
         "id": 5,
         "nombre": "Lic. Zonaly Guimac",
