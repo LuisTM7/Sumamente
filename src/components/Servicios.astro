@@ -1,9 +1,4 @@
 ---
-// import Swiper from "swiper";
-// import "swiper/css";
-// import "swiper/css/pagination";
-// import "swiper/css/navigation";
-
 import servicios from "../config/Servicios.json";
 ---
 
@@ -14,13 +9,6 @@ import servicios from "../config/Servicios.json";
   <h2 class="text-center text-2xl mb-4" data-aos="fade-down" data-aos-duration="1000">
     Servicios profesionales de terapia psicológica
   </h2>
-
-  <!-- <div class="swiper mySwiper">
-    <div class="swiper-wrapper">
-      <div class="swiper-slide">Slide 1</div>
-    </div>
-    <div class="swiper-pagination"></div>
-  </div> -->
 
   <div class="flex flex-wrap justify-center gap-4 mt-8" data-aos="zoom-in-down" data-aos-duration="1000">
     <div class="swiper mySwiper">
@@ -43,14 +31,28 @@ import servicios from "../config/Servicios.json";
           ))
         }
       </div>
-      <div class="swiper-pagination"></div>
-      <!-- <div class="swiper-button-next"></div>
-      <div class="swiper-button-prev"></div> -->
+      <!-- <div class="swiper-pagination"></div> -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
     </div>
   </div>
 </div>
 
 <style>
+  .mySwiper {
+    padding: initial; /* Valor por defecto para móvil */
+  }
+
+  @media (min-width: 1000px) {
+    .mySwiper {
+      padding: 2rem 3rem; /* Solo en pantallas ≥1000px */
+    }
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    color: #ff637e;
+  }
   .swiper-wrapper {
     height: initial;
   }
@@ -58,6 +60,9 @@ import servicios from "../config/Servicios.json";
 
 <script>
   import Swiper from "swiper";
+  import { Pagination } from "swiper/modules";
+  import { Navigation } from "swiper/modules";
+  import { Autoplay } from "swiper/modules";
   import "swiper/css";
   import "swiper/css/pagination";
   import "swiper/css/navigation";
@@ -65,6 +70,7 @@ import servicios from "../config/Servicios.json";
   const swiper = new Swiper(".mySwiper", {
     // slidesPerView: 1,
     // spaceBetween: 10,
+    modules: [Pagination, Navigation, Autoplay],
     loop: true,
     pagination: {
       el: ".swiper-pagination",
