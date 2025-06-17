@@ -7,9 +7,9 @@ import { SITE_TITLE } from "../consts";
   <nav>
     <!-- <h2><a href="/">{SITE_TITLE}</a></h2> -->
     <div>
-      <img src="logo-sumamente.png" class="h-20" alt="" />
+      <img src="logo-jhest.jpeg" class="h-20" alt="" />
     </div>
-    <div class="internal-links">
+    <div class="internal-links hidden md:block">
       <HeaderLink href="/">Centro-Jhest</HeaderLink>
       <!-- <HeaderLink href="/blog">Blog</HeaderLink>
       <HeaderLink href="/about">About</HeaderLink> -->
@@ -130,8 +130,14 @@ import { SITE_TITLE } from "../consts";
     display: flex;
   }
   @media (max-width: 720px) {
-    .social-links {
+    /* .social-links {
       display: none;
+    } */
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 10px 0;
     }
   }
 </style>
