@@ -20,6 +20,8 @@ import equipo from "../config/Equipo.json";
             <div class="card">
               <div class="front text-white text-lg" style={{ backgroundImage: `url(${miembro.imagen})` }}>
                 <p>{miembro.nombre}</p>
+                <p>{miembro.grado}</p>
+                <p>{miembro.codigo}</p>
               </div>
               <div class="back">
                 <div>
@@ -180,7 +182,9 @@ import equipo from "../config/Equipo.json";
     .front {
       background-size: cover;
       padding: 2rem;
-      align-items: flex-end;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: center;
       font-weight: 600;
       /* color: #fff; */
       overflow: hidden;
