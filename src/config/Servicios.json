@@ -9,7 +9,7 @@
         "id": 2,
         "servicio": "Terapia individual en niños y/o adolescentes",
         "imagen": "service/terapia_nino.jpg",
-        "atencion": "Atencion on-line y presencial (domicilio)."
+        "atencion": "Atencion on-line"
     },
     {
         "id": 3,
