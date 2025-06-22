@@ -40,7 +40,7 @@
     {
         "id": 3,
         "nombre": "Psic. Ela Chavez",
-        "imagen": "equipo-milagros.jpg",
+        "imagen": "equipo-ela.jpg",
         "grado": "Especialista en problemas de aprendizaje",
         "codigo": "CPsP. 18080",
         "descripcion":"Psicóloga - Enfoque Sistémico",
@@ -52,11 +52,11 @@
     },
 
     {
-        "id": 5,
+        "id": 5,    
         "nombre": "Lic. Zonaly Guimac",
         "imagen": "equipo-zonaly.png",
-        "grado": "Mag. Terapia familiar ",
-        "codigo": "",
+        "grado": "Salud pública y teología",
+        "codigo": "Especialista en terapia familiar",
         "descripcion":"Licenciada en salud pública y teología/ Especialidad en terapia familiar - Enfoque Sistémico Acompañamiento espiritual y terapéutico.",
         "horario": "Lunes a Viernes 8:00 - 16:00",
         "especialidad1": "Mi labor como teóloga/terapeuta es brindar un espacio de escucha compasiva y de acompañamiento espiritual-terapéutico a personas que están atravesando momentos difíciles, tales como: Duelo, enfermedad, pérdidas o crisis existenciales, Búsqueda de sentido o reconexión interior, procesos de perdón o reconciliación personal, espacios de oración guiada y contención espiritual.",
