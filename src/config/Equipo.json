@@ -24,19 +24,7 @@
         "especialidad3": "Mis áreas de intervención incluyen en ansiedad, estrés, autoestima, toma de decisiones y procesos de cambio personal.",
         "ver": false
     },
-        {
-        "id": 4,
-        "nombre": "Psic. Henry Tula",
-        "imagen": "equipo-henry.jpg",
-        "grado": "Mag. Psicología clínica",
-        "codigo": "CPsP. 51305",
-        "descripcion":"Psicólogo - Enfoque Cognitivo-Conductual (TCC)",
-        "horario": "Lunes a Viernes 8:00 - 16:00",
-        "especialidad1": "Trabajaremos desde un  enfoque  cognitivo-conductual y/o el adecuado para ti,  apoyándote  a comprender y transformar tus pensamientos y comportamientos que te generan malestar, y así, fortalecer su bienestar emocional.",
-        "especialidad2": "Ofrezco un espacio de escucha activa, sin juicios, donde podamos trabajar juntos/as en tus objetivos personales y/o familiares, emocionales y de vida cotidiana.",
-        "especialidad3": "Mis áreas de intervención incluyen también en terapia de pareja y/o familia, fomentando la comunicación, el respeto mutuo y la construcción de vínculos saludables.",
-        "ver": true
-    },
+
     {
         "id": 3,
         "nombre": "Psic. Ela Chavez",
@@ -50,7 +38,19 @@
         "especialidad3": "",
         "ver": true
     },
-
+    {
+        "id": 4,
+        "nombre": "Psic. Henry Tula",
+        "imagen": "equipo-henry.jpg",
+        "grado": "Mag. Psicología clínica",
+        "codigo": "CPsP. 51305",
+        "descripcion":"Psicólogo - Enfoque Cognitivo-Conductual (TCC)",
+        "horario": "Lunes a Viernes 8:00 - 16:00",
+        "especialidad1": "Trabajaremos desde un  enfoque  cognitivo-conductual y/o el adecuado para ti,  apoyándote  a comprender y transformar tus pensamientos y comportamientos que te generan malestar, y así, fortalecer su bienestar emocional.",
+        "especialidad2": "Ofrezco un espacio de escucha activa, sin juicios, donde podamos trabajar juntos/as en tus objetivos personales y/o familiares, emocionales y de vida cotidiana.",
+        "especialidad3": "Mis áreas de intervención incluyen también en terapia de pareja y/o familia, fomentando la comunicación, el respeto mutuo y la construcción de vínculos saludables.",
+        "ver": true
+    },
     {
         "id": 5,    
         "nombre": "Lic. Zonaly Guimac",
@@ -61,6 +61,19 @@
         "horario": "Lunes a Viernes 8:00 - 16:00",
         "especialidad1": "Mi labor como teóloga/terapeuta es brindar un espacio de escucha compasiva y de acompañamiento espiritual-terapéutico a personas que están atravesando momentos difíciles, tales como: Duelo, enfermedad, pérdidas o crisis existenciales, Búsqueda de sentido o reconexión interior, procesos de perdón o reconciliación personal, espacios de oración guiada y contención espiritual.",
         "especialidad2": "Creo profundamente en el poder de: la conexión humana, la palabra sincera y la fe, como alternativa de sanación.",
+        "especialidad3": "",
+        "ver": true
+    },
+    {
+        "id": 6,    
+        "nombre": "Ericka Acuña Cordova",
+        "imagen": "equipo-erika.jpg",
+        "grado": "",
+        "codigo": "",
+        "descripcion":"Bach. Educación Inicial - Especialista en Terapia de Lenguaje y Estimulación Temprana.",
+        "horario": "Lunes a Viernes 8:00 - 16:00",
+        "especialidad1": "Brindo un acompañamiento personalizado en el entorno del niño, favoreciendo un desarrollo natural y cercano a su vida cotidiana.",
+        "especialidad2": "Las áreas de intervención que realizo incluyen estimulación temprana, apoyo en problemas de aprendizaje y terapia de lenguaje, trabajando en coordinación con las familias para potenciar el desarrollo integral de cada niño.",
         "especialidad3": "",
         "ver": true
     }
